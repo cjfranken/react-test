@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.metadata/
 
 # testing
 /coverage
@@ -21,3 +22,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# IntelliJ Files should never be committed
+**/.idea/*
+
+# OS X temporary userstate files that should never be committed
+*.xcuserstate
+
+# Visual Studio 2015 cache/options directory
+.vs/
+src/helpers/
